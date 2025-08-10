@@ -164,7 +164,6 @@ module appInsightsRoleAssignmentApp './core/monitor/appinsights-access.bicep' = 
 }
 
 // App outputs
-output APPLICATIONINSIGHTS_CONNECTION_STRING string = monitoring.outputs.applicationInsightsConnectionString
 output AZURE_LOCATION string = location
 output AZURE_TENANT_ID string = tenant().tenantId
 output SERVICE_APP_NAME string = app.outputs.SERVICE_APP_NAME
